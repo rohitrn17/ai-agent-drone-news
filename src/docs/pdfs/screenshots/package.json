@@ -1,0 +1,16 @@
+{
+  "name": "ai-agent-drone-news",
+  "version": "1.0.0",
+  "description": "AI Agent automation for drone news summarization and social posting.",
+  "main": "src/runner.js",
+  "scripts": {
+    "start": "node src/runner.js",
+    "fetch": "node src/fetch_news.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "rss-parser": "^3.13.0",
+    "dayjs": "^1.11.10",
+    "dotenv": "^16.3.1"
+  }
+}
